@@ -1,0 +1,30 @@
+[debug] [2019-03-23T16:29:38.194Z] ----------------------------------------------------------------------
+[debug] [2019-03-23T16:29:38.197Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\adobe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2019-03-23T16:29:38.198Z] CLI Version:   6.5.0
+[debug] [2019-03-23T16:29:38.198Z] Platform:      win32
+[debug] [2019-03-23T16:29:38.198Z] Node Version:  v10.15.3
+[debug] [2019-03-23T16:29:38.199Z] Time:          Sat Mar 23 2019 09:29:38 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-03-23T16:29:38.199Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-23T16:29:38.219Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-23T16:29:38.220Z] > authorizing via signed-in user
+[debug] [2019-03-23T16:29:38.220Z] [iam] checking project harisha for permissions ["firebase.projects.get"]
+[debug] [2019-03-23T16:29:38.222Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-03-23T16:29:38.222Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-03-23T16:29:38.640Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-23T16:29:38.668Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/harisha:testIamPermissions  
+
+[debug] [2019-03-23T16:29:40.540Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-03-23T16:29:42.873Z] Fetching environment
+[debug] [2019-03-23T16:29:42.883Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/harisha  
+ 
+[debug] [2019-03-23T16:29:44.407Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-23T16:29:44.408Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/963205608734:getServerAppConfig  
+ 
+[debug] [2019-03-23T16:29:45.232Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-23T16:29:45.232Z] Starting @google-cloud/functions-emulator
+[debug] [2019-03-23T16:29:47.851Z] Parsing function triggers
+[debug] [2019-03-23T16:29:48.213Z] Deploying functions locally
+[info] +  functions: firebasCloudMsgPushNotification
